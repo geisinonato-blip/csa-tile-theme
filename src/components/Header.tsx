@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoCSA from "@/assets/logo-csa.png";
+import logoCSA from "@/assets/logo-csa-oficial.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,11 +23,7 @@ const Header = () => {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src={logoCSA} alt="Cerâmica Santo Antônio - CSA Logo" className="h-14 w-14" />
-            <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-primary">Cerâmica Santo Antônio</h1>
-              <p className="text-xs text-muted-foreground">Qualidade desde 1976</p>
-            </div>
+            <img src={logoCSA} alt="Cerâmica Santo Antônio - CSA Logo" className="h-12 md:h-16" />
           </div>
 
           {/* Desktop Navigation */}

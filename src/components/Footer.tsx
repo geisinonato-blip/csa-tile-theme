@@ -1,5 +1,5 @@
 import { Phone, MapPin, Clock, Mail } from "lucide-react";
-import logoCSA from "@/assets/logo-csa.png";
+import logoCSA from "@/assets/logo-csa-oficial.jpg";
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -15,12 +15,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Logo e descrição */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <img src={logoCSA} alt="Cerâmica Santo Antônio - CSA Logo" className="h-16 w-16" />
-              <div>
-                <h3 className="text-xl font-bold text-white">Cerâmica Santo Antônio</h3>
-                <p className="text-sm text-white/70">Desde 1976</p>
-              </div>
+            <div className="mb-4">
+              <img src={logoCSA} alt="Cerâmica Santo Antônio - CSA Logo" className="h-20" />
             </div>
             <p className="text-white/80 text-sm leading-relaxed">
               Construindo qualidade desde 1976 com os melhores tijolos de Ribeirão das Neves e região.

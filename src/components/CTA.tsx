@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import mascote from "@/assets/mascote-csa.png";
+import mascote from "@/assets/mascote-csa-oficial.jpg";
 
 const CTA = () => {
   const whatsappNumber = "5531984680246";

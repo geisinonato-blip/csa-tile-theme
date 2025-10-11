@@ -3,7 +3,7 @@ import { ArrowLeft, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import fabricaImage from "@/assets/fabrica-ceramica.jpg";
+import fabricaImage from "@/assets/fabrica-aerea.png";
 import tijolo8 from "@/assets/tijolo-8-furos.jpg";
 import tijolo12 from "@/assets/tijolo-12-furos.jpg";
 

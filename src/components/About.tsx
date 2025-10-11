@@ -1,4 +1,4 @@
-import fabricaImage from "@/assets/fabrica-ceramica.jpg";
+import fabricaImage from "@/assets/fabrica-aerea.png";
 
 const About = () => {
   return (

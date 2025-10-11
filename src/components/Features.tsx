@@ -1,5 +1,5 @@
 import { Award, DollarSign, Truck, Settings, Handshake } from "lucide-react";
-import mascote from "@/assets/mascote-csa.png";
+import mascote from "@/assets/mascote-csa-oficial.jpg";
 
 const Features = () => {
   const features = [
