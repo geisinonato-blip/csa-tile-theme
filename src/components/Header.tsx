@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X, MessageCircle, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoCSA from "@/assets/logo-csa-oficial.jpg";
+import logoCSA from "@/assets/logo-horizontal-csa.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,39 +23,48 @@ const Header = () => {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src={logoCSA} alt="Cerâmica Santo Antônio - CSA Logo" className="h-12 md:h-16" />
+            <img src={logoCSA} alt="Cerâmica Santo Antônio - CSA Logo" className="h-14 md:h-20" />
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
-            <button onClick={() => scrollToSection("inicio")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
-              Início
-            </button>
-            <button onClick={() => scrollToSection("produtos")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
-              Produtos
-            </button>
-            <button onClick={() => scrollToSection("entregas")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
-              Entregas
-            </button>
-            <button onClick={() => scrollToSection("sobre")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
-              Sobre
-            </button>
-            <button onClick={() => scrollToSection("blog")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
-              Blog
-            </button>
-            <button onClick={() => scrollToSection("contato")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
-              Contato
-            </button>
-          </nav>
-
-          {/* CTA Button */}
-          <div className="hidden lg:block">
-            <Button asChild className="bg-primary hover:bg-primary/90">
-              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                <MessageCircle className="mr-2 h-4 w-4" />
-                Falar com Vendas
+          {/* Contact Info & Desktop Navigation */}
+          <div className="hidden lg:flex items-center gap-6">
+            {/* Contact Numbers */}
+            <div className="flex items-center gap-4 border-r border-border pr-6">
+              <a href="tel:+553136381045" className="flex items-center gap-2 text-sm text-foreground hover:text-primary transition-smooth">
+                <Phone className="h-4 w-4" />
+                <span className="font-semibold">(31) 3693-1045</span>
               </a>
-            </Button>
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-green-600 hover:text-green-700 transition-smooth">
+                <MessageCircle className="h-4 w-4" />
+                <span className="font-semibold">(31) 98468-0246</span>
+              </a>
+            </div>
+            
+            {/* Navigation */}
+            <nav className="flex items-center gap-6">
+              <button onClick={() => scrollToSection("inicio")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
+                Início
+              </button>
+              <button onClick={() => scrollToSection("produtos")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
+                Produtos
+              </button>
+              <button onClick={() => scrollToSection("entregas")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
+                Entregas
+              </button>
+              <button onClick={() => scrollToSection("sobre")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
+                Sobre
+              </button>
+              <button onClick={() => scrollToSection("blog")} className="text-sm font-medium text-foreground hover:text-primary transition-smooth">
+                Blog
+              </button>
+              
+              <Button asChild className="bg-primary hover:bg-primary/90">
+                <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="mr-2 h-4 w-4" />
+                  Orçamento
+                </a>
+              </Button>
+            </nav>
           </div>
 
           {/* Mobile Menu Button */}
@@ -72,6 +81,18 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="lg:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
+              {/* Contact Numbers */}
+              <div className="flex flex-col gap-3 pb-4 border-b border-border">
+                <a href="tel:+553136381045" className="flex items-center gap-2 text-foreground hover:text-primary transition-smooth">
+                  <Phone className="h-4 w-4" />
+                  <span className="font-semibold">(31) 3693-1045</span>
+                </a>
+                <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-green-600 hover:text-green-700 transition-smooth">
+                  <MessageCircle className="h-4 w-4" />
+                  <span className="font-semibold">(31) 98468-0246</span>
+                </a>
+              </div>
+              
               <button onClick={() => scrollToSection("inicio")} className="text-left text-sm font-medium text-foreground hover:text-primary transition-smooth">
                 Início
               </button>
@@ -87,13 +108,11 @@ const Header = () => {
               <button onClick={() => scrollToSection("blog")} className="text-left text-sm font-medium text-foreground hover:text-primary transition-smooth">
                 Blog
               </button>
-              <button onClick={() => scrollToSection("contato")} className="text-left text-sm font-medium text-foreground hover:text-primary transition-smooth">
-                Contato
-              </button>
-              <Button asChild className="bg-primary hover:bg-primary/90 w-full">
+              
+              <Button asChild className="bg-primary hover:bg-primary/90 w-full mt-4">
                 <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="mr-2 h-4 w-4" />
-                  Falar com Vendas
+                  Orçamento WhatsApp
                 </a>
               </Button>
             </div>

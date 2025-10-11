@@ -65,7 +65,12 @@ const Products = () => {
                   {product.qualities.map((quality) => (
                     <div key={quality.name} className="flex items-start gap-4 p-4 bg-muted/50 rounded-lg hover:bg-muted transition-smooth">
                       <div className="flex-1">
-                        <h4 className="font-semibold text-foreground mb-1">{quality.name}</h4>
+                        <div className="flex items-center gap-2 mb-1">
+                          <h4 className="font-semibold text-foreground">{quality.name}</h4>
+                          <Badge className="bg-green-500 text-white text-xs hover:bg-green-600">
+                            Pronta Entrega
+                          </Badge>
+                        </div>
                         <p className="text-sm text-muted-foreground">{quality.description}</p>
                       </div>
                       <Button 

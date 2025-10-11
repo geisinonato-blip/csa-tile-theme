@@ -5,10 +5,12 @@ import Features from "@/components/Features";
 import Delivery from "@/components/Delivery";
 import About from "@/components/About";
 import Calculator from "@/components/Calculator";
+import Reviews from "@/components/Reviews";
 import Blog from "@/components/Blog";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import FloatingCalculator from "@/components/FloatingCalculator";
 
 const Index = () => {
   return (
@@ -21,11 +23,13 @@ const Index = () => {
         <Delivery />
         <About />
         <Calculator />
+        <Reviews />
         <Blog />
         <CTA />
       </main>
       <Footer />
       <FloatingWhatsApp />
+      <FloatingCalculator />
     </div>
   );
 };

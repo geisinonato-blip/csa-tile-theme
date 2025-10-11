@@ -7,7 +7,8 @@ const Delivery = () => {
     "Justinópolis",
     "Venda Nova",
     "Contagem",
-    "Belo Horizonte"
+    "Belo Horizonte",
+    "Toda região metropolitana de BH"
   ];
 
   const googleMapsUrl = "https://www.google.com/maps/place/Cer%C3%A2mica+Santo+Ant%C3%B4nio/@-19.7667,-44.0869,15z";
@@ -42,13 +43,25 @@ const Delivery = () => {
                 ))}
               </ul>
 
-              <div className="flex items-start gap-3 p-4 bg-accent/10 rounded-lg border-l-4 border-accent">
-                <Clock className="w-5 h-5 text-accent shrink-0 mt-1" />
-                <div>
-                  <p className="font-semibold text-foreground">Entrega Rápida</p>
-                  <p className="text-sm text-muted-foreground">
-                    Frota própria com agendamento flexível para sua obra
-                  </p>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3 p-4 bg-accent/10 rounded-lg border-l-4 border-accent">
+                  <Clock className="w-5 h-5 text-accent shrink-0 mt-1" />
+                  <div>
+                    <p className="font-semibold text-foreground">Tijolos à Pronta Entrega</p>
+                    <p className="text-sm text-muted-foreground">
+                      Envio imediato com frota própria
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-4 bg-green-500/10 rounded-lg border-l-4 border-green-500">
+                  <MapPin className="w-5 h-5 text-green-600 shrink-0 mt-1" />
+                  <div>
+                    <p className="font-semibold text-foreground">Frete GRÁTIS até 30km</p>
+                    <p className="text-sm text-muted-foreground">
+                      Fora do raio de 30km: frete a combinar
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -58,6 +71,20 @@ const Delivery = () => {
           <div>
             <div className="bg-card p-8 rounded-2xl shadow-medium">
               <h3 className="text-2xl font-bold text-foreground mb-6">Localização da Fábrica</h3>
+              
+              {/* Google Maps Embed */}
+              <div className="mb-6 rounded-lg overflow-hidden shadow-medium">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.8!2d-44.0869!3d-19.7667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDQ2JzAwLjEiUyA0NMKwMDUnMTIuOCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                  width="100%" 
+                  height="300" 
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Localização da Cerâmica Santo Antônio"
+                />
+              </div>
               
               <div className="space-y-4 mb-6">
                 <div>
@@ -80,7 +107,8 @@ const Delivery = () => {
                 <div>
                   <p className="font-semibold text-primary mb-1">Raio de Atendimento:</p>
                   <p className="text-foreground">
-                    Até 50km da fábrica com condições especiais para grandes volumes
+                    Região metropolitana de BH<br />
+                    <span className="text-green-600 font-semibold">Frete GRÁTIS até 30km da fábrica</span>
                   </p>
                 </div>
               </div>
@@ -88,7 +116,7 @@ const Delivery = () => {
               <Button asChild className="w-full bg-primary hover:bg-primary/90">
                 <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
                   <MapPin className="mr-2 h-4 w-4" />
-                  Ver no Google Maps
+                  Abrir no Google Maps
                 </a>
               </Button>
             </div>
