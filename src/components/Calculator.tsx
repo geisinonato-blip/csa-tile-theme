@@ -20,6 +20,8 @@ const Calculator = () => {
   const [walls, setWalls] = useState<Wall[]>([
     { id: 1, width: 0, height: 0, doorWidth: 0, doorHeight: 0 }
   ]);
+  const [customerName, setCustomerName] = useState("");
+  const [neighborhood, setNeighborhood] = useState("");
 
   const BRICKS_PER_SQM = 17; // 17 tijolos por m²
   const whatsappNumber = "5531984680246";
@@ -59,22 +61,34 @@ const Calculator = () => {
     return { totalArea, totalBricks, thousands };
   };
 
+  const isFormValid = () => {
+    const hasValidWalls = walls.some(wall => wall.width > 0 && wall.height > 0);
+    const hasName = customerName.trim().length > 0;
+    const hasNeighborhood = neighborhood.trim().length > 0;
+    return hasValidWalls && hasName && hasNeighborhood;
+  };
+
   const handleSendWhatsApp = () => {
     const { totalArea, totalBricks, thousands } = calculateTotal();
 
-    if (totalBricks === 0) {
-      toast.error("Preencha as dimensões das paredes para calcular!");
+    if (!isFormValid()) {
+      toast.error("Preencha todos os campos obrigatórios (medidas, nome e bairro)!");
       return;
     }
 
-    const wallsDetails = walls.map((wall, index) => {
-      const wallArea = wall.width * wall.height;
-      const doorArea = wall.doorWidth * wall.doorHeight;
-      const netArea = wallArea - doorArea;
-      return `Parede ${index + 1}: ${wall.width}m x ${wall.height}m${doorArea > 0 ? ` (desconto porta/janela: ${wall.doorWidth}m x ${wall.doorHeight}m)` : ''} = ${netArea.toFixed(2)}m²`;
-    }).join('\n');
+    const wallsDetails = walls
+      .filter(wall => wall.width > 0 && wall.height > 0)
+      .map((wall, index) => {
+        const wallArea = wall.width * wall.height;
+        const doorArea = wall.doorWidth * wall.doorHeight;
+        const netArea = wallArea - doorArea;
+        return `Parede ${index + 1}: ${wall.width}m x ${wall.height}m${doorArea > 0 ? ` (desconto porta/janela: ${wall.doorWidth}m x ${wall.doorHeight}m)` : ''} = ${netArea.toFixed(2)}m²`;
+      }).join('\n');
 
     const message = `🧱 *Orçamento de Tijolos - Cerâmica Santo Antônio*
+
+👤 *Nome:* ${customerName}
+📍 *Bairro:* ${neighborhood}
 
 📋 *Tipo:* Tijolo ${brickType} furos
 
@@ -234,10 +248,40 @@ Gostaria de solicitar um orçamento!`;
               </div>
             )}
 
+            {/* Dados do Cliente */}
+            <div className="space-y-4 pt-4 border-t-2">
+              <h3 className="text-lg font-semibold text-foreground">Dados para Orçamento</h3>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <Label htmlFor="customer-name">Nome Completo *</Label>
+                  <Input
+                    id="customer-name"
+                    type="text"
+                    placeholder="Digite seu nome"
+                    value={customerName}
+                    onChange={(e) => setCustomerName(e.target.value)}
+                    required
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="neighborhood">Bairro *</Label>
+                  <Input
+                    id="neighborhood"
+                    type="text"
+                    placeholder="Digite seu bairro"
+                    value={neighborhood}
+                    onChange={(e) => setNeighborhood(e.target.value)}
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+
             {/* Botão WhatsApp */}
             <Button
               onClick={handleSendWhatsApp}
-              className="w-full bg-accent hover:bg-accent/90 text-accent-foreground text-lg py-6 h-auto shadow-medium"
+              disabled={!isFormValid()}
+              className="w-full bg-accent hover:bg-accent/90 text-accent-foreground text-lg py-6 h-auto shadow-medium disabled:opacity-50 disabled:cursor-not-allowed"
               size="lg"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
