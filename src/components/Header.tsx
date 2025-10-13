@@ -22,9 +22,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <button 
+            onClick={() => scrollToSection("inicio")} 
+            className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-smooth"
+            aria-label="Voltar ao início"
+          >
             <img src={logoCSA} alt="Cerâmica Santo Antônio - CSA Logo" className="h-14 md:h-20" />
-          </div>
+          </button>
 
           {/* Contact Info & Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-6">

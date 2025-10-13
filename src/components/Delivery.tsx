@@ -11,7 +11,7 @@ const Delivery = () => {
     "Toda região metropolitana de BH"
   ];
 
-  const googleMapsUrl = "https://www.google.com/maps/place/Cer%C3%A2mica+Santo+Ant%C3%B4nio/@-19.7667,-44.0869,15z";
+  const googleMapsUrl = "https://www.google.com/maps/search/?api=1&query=Rua+Antônio+Cândido+Rocha,+05,+Labanca+(Justinópolis),+Ribeirão+das+Neves+-+MG,+33900-670";
 
   return (
     <section id="entregas" className="py-20 bg-muted/30">
@@ -59,6 +59,9 @@ const Delivery = () => {
                   <div>
                     <p className="font-semibold text-foreground">Frete GRÁTIS até 30km</p>
                     <p className="text-sm text-muted-foreground">
+                      Região de Justinópolis - quantidade mínima 200 unidades
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-1">
                       Fora do raio de 30km: frete a combinar
                     </p>
                   </div>
@@ -75,7 +78,7 @@ const Delivery = () => {
               {/* Google Maps Embed */}
               <div className="mb-6 rounded-lg overflow-hidden shadow-medium">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.8!2d-44.0869!3d-19.7667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDQ2JzAwLjEiUyA0NMKwMDUnMTIuOCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                  src="https://www.google.com/maps?q=Rua+Antônio+Cândido+Rocha,+05,+Labanca+(Justinópolis),+Ribeirão+das+Neves+-+MG,+33900-670&output=embed"
                   width="100%" 
                   height="300" 
                   style={{ border: 0 }}
