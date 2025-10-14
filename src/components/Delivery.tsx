@@ -1,14 +1,17 @@
 import { MapPin, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Delivery = () => {
   const areas = [
-    "Ribeirão das Neves",
-    "Justinópolis",
-    "Venda Nova",
-    "Contagem",
-    "Belo Horizonte",
-    "Toda região metropolitana de BH"
+    { name: "Ribeirão das Neves", slug: "ribeirao-das-neves" },
+    { name: "Justinópolis", slug: "justinopolis" },
+    { name: "Venda Nova", slug: "venda-nova" },
+    { name: "Contagem", slug: "contagem" },
+    { name: "Belo Horizonte", slug: "belo-horizonte" },
+    { name: "Santa Luzia", slug: "santa-luzia" },
+    { name: "Vespasiano", slug: "vespasiano" },
+    { name: "Toda região metropolitana de BH", slug: null }
   ];
 
   const googleMapsUrl = "https://www.google.com/maps/search/?api=1&query=Rua+Antônio+Cândido+Rocha,+05,+Labanca+(Justinópolis),+Ribeirão+das+Neves+-+MG,+33900-670";
@@ -36,9 +39,18 @@ const Delivery = () => {
               
               <ul className="space-y-3 mb-8">
                 {areas.map((area) => (
-                  <li key={area} className="flex items-center gap-3 text-lg">
+                  <li key={area.name} className="flex items-center gap-3 text-lg">
                     <div className="w-2 h-2 rounded-full bg-primary"></div>
-                    <span className="text-foreground">{area}</span>
+                    {area.slug ? (
+                      <Link 
+                        to={`/tijolos-em-${area.slug}`}
+                        className="text-foreground hover:text-primary transition-smooth hover:underline"
+                      >
+                        {area.name}
+                      </Link>
+                    ) : (
+                      <span className="text-foreground">{area.name}</span>
+                    )}
                   </li>
                 ))}
               </ul>

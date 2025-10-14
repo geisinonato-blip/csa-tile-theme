@@ -1,4 +1,5 @@
 import { Phone, MapPin, Clock, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 import logoCSA from "@/assets/logo-csa-oficial.jpg";
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
   return (
     <footer id="contato" className="bg-secondary text-secondary-foreground pt-16 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* Logo e descrição */}
           <div>
             <div className="mb-4">
@@ -46,6 +47,48 @@ const Footer = () => {
                 <button onClick={() => scrollToSection("contato")} className="text-white/80 hover:text-white transition-smooth text-sm">
                   Contato
                 </button>
+              </li>
+            </ul>
+          </div>
+
+          {/* Regiões Atendidas */}
+          <div>
+            <h4 className="text-lg font-bold text-white mb-4">Regiões Atendidas</h4>
+            <ul className="space-y-2">
+              <li>
+                <Link to="/tijolos-em-ribeirao-das-neves" className="text-white/80 hover:text-white transition-smooth text-sm">
+                  Ribeirão das Neves
+                </Link>
+              </li>
+              <li>
+                <Link to="/tijolos-em-justinopolis" className="text-white/80 hover:text-white transition-smooth text-sm">
+                  Justinópolis
+                </Link>
+              </li>
+              <li>
+                <Link to="/tijolos-em-venda-nova" className="text-white/80 hover:text-white transition-smooth text-sm">
+                  Venda Nova
+                </Link>
+              </li>
+              <li>
+                <Link to="/tijolos-em-contagem" className="text-white/80 hover:text-white transition-smooth text-sm">
+                  Contagem
+                </Link>
+              </li>
+              <li>
+                <Link to="/tijolos-em-belo-horizonte" className="text-white/80 hover:text-white transition-smooth text-sm">
+                  Belo Horizonte
+                </Link>
+              </li>
+              <li>
+                <Link to="/tijolos-em-santa-luzia" className="text-white/80 hover:text-white transition-smooth text-sm">
+                  Santa Luzia
+                </Link>
+              </li>
+              <li>
+                <Link to="/tijolos-em-vespasiano" className="text-white/80 hover:text-white transition-smooth text-sm">
+                  Vespasiano
+                </Link>
               </li>
             </ul>
           </div>
