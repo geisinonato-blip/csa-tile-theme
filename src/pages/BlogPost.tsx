@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import fabricaImage from "@/assets/fabrica-aerea.png";
 import tijolo8 from "@/assets/tijolo-8-furos.jpg";
 import tijolo12 from "@/assets/tijolo-12-furos.jpg";
+import galpao1 from "@/assets/fabrica-galpao-1.jpg";
+import galpao2 from "@/assets/fabrica-galpao-2.jpg";
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -39,7 +41,7 @@ const BlogPost = () => {
             Não havia galpões estruturados, e os tijolos eram <strong>cobertos com lonas para proteger da chuva</strong>. Cada temporal trazia prejuízos, mas também fortalecia a vontade de seguir em frente.
           </p>
           <p className="leading-relaxed mb-4">
-            Com o apoio dos filhos, amigos e vizinhos, Seu Antônio <strong>transformou dificuldades em aprendizado</strong> e fez da cerâmica um exemplo de <strong>persistência e resiliência mineira</strong>.
+            Com o apoio dos filhos e amigos, Seu Antônio <strong>transformou dificuldades em aprendizado</strong> e fez da cerâmica um exemplo de <strong>persistência e resiliência mineira</strong>.
           </p>
           <p className="leading-relaxed mb-4">
             Aos poucos, vieram as melhorias: o primeiro barracão, os fornos a lenha, a modernização do maquinário e o aumento da produção — sempre mantendo o cuidado artesanal que fez a <strong>Cerâmica Santo Antônio</strong> ser reconhecida como uma das <strong>melhores fábricas de tijolos da região de Justinópolis</strong>.
@@ -271,6 +273,175 @@ const BlogPost = () => {
           <div className="bg-accent/10 border-l-4 border-accent p-6 rounded-lg mt-8">
             <p className="text-lg font-semibold">
               📞 Tem dúvidas sobre qual tijolo escolher para sua obra? Nossa equipe está pronta para ajudar! Entre em contato pelo WhatsApp (31) 98468-0246 e receba orientação personalizada.
+            </p>
+          </div>
+        </div>
+      )
+    },
+    "fabrica-ao-canteiro-entrega-qualidade": {
+      title: "Da Fábrica ao Canteiro: Entregando Qualidade e Comprometimento para o Futuro",
+      date: "05 de Fevereiro, 2024",
+      image: galpao1,
+      content: (
+        <div className="prose prose-lg max-w-none">
+          <p className="text-xl text-muted-foreground leading-relaxed mb-6">
+            A <strong>Cerâmica Santo Antônio</strong> sempre acreditou que vender tijolos vai muito além de fabricar blocos de barro.
+            Trata-se de <strong>entregar confiança</strong>, <strong>cumprir prazos</strong> e <strong>participar da construção de sonhos</strong> — do pequeno muro até o grande prédio que transforma uma cidade.
+          </p>
+
+          <p className="leading-relaxed mb-4">
+            Por isso, o caminho entre a <strong>fábrica</strong> e o <strong>canteiro de obras</strong> nunca foi apenas uma rota de entrega.
+            É o símbolo do compromisso que a empresa mantém com seus clientes há décadas.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">Do barro à obra: o cuidado em cada etapa</h2>
+          
+          <div className="grid md:grid-cols-2 gap-6 my-6">
+            <img src={galpao1} alt="Galpão da Cerâmica Santo Antônio com tijolos empilhados" className="rounded-lg shadow-medium" />
+            <img src={galpao2} alt="Estrutura moderna da fábrica de tijolos" className="rounded-lg shadow-medium" />
+          </div>
+
+          <p className="leading-relaxed mb-4">
+            Desde a extração da argila até a queima final nos fornos, cada processo é acompanhado com rigor técnico e experiência acumulada ao longo dos anos.
+            Nada é deixado ao acaso.
+            O resultado são <strong>tijolos 8 e 12 furos</strong> de <strong>1ª linha premium</strong>, conhecidos em toda a região por sua resistência, acabamento e padrão de qualidade.
+          </p>
+
+          <p className="leading-relaxed mb-4">
+            Mas o diferencial da <strong>Cerâmica Santo Antônio</strong> não está só no produto — está no <strong>modo de fazer</strong>.
+            A empresa mantém a tradição de fabricação artesanal com o suporte da tecnologia moderna, garantindo <strong>peças uniformes, duráveis e de alta performance</strong> para qualquer tipo de construção.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">Logística inteligente: entrega que chega junto com a confiança</h2>
+          <p className="leading-relaxed mb-4">
+            A fábrica conta com <strong>frota própria de caminhões</strong> e uma equipe de entrega que entende a urgência de cada obra.
+            Por isso, o cliente pode contar com <strong>tijolos à pronta entrega</strong> em toda a região de <strong>Ribeirão das Neves, Justinópolis, Venda Nova, Contagem, Belo Horizonte, Santa Luzia e Vespasiano</strong>.
+          </p>
+
+          <p className="leading-relaxed mb-4">
+            Dentro de um raio de <strong>30 km de Justinópolis</strong>, o <strong>frete é gratuito para pedidos a partir de 200 unidades</strong> — um benefício que reforça o compromisso da Cerâmica Santo Antônio com o custo-benefício e a eficiência.
+          </p>
+
+          <p className="leading-relaxed mb-4">
+            Cada entrega é feita com o mesmo cuidado de quem sabe que um dia de atraso pode significar prejuízo no canteiro.
+            E é por isso que a empresa conquistou a confiança de <strong>depósitos, construtoras e clientes finais</strong> em toda a região metropolitana de BH.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">Compromisso com o futuro</h2>
+          <p className="leading-relaxed mb-4">
+            A Cerâmica Santo Antônio não para no presente.
+            A empresa trabalha continuamente para evoluir seus processos, reduzir desperdícios e <strong>atuar de forma sustentável</strong>, respeitando o meio ambiente e valorizando a comunidade local.
+          </p>
+
+          <p className="leading-relaxed mb-4">
+            Os fornos modernos consomem menos energia, a reutilização de sobras de argila é uma prática constante e a empresa investe em melhorias para tornar a produção cada vez mais limpa e eficiente.
+          </p>
+
+          <p className="leading-relaxed mb-4">
+            Mais do que fabricar tijolos, a <strong>CSA constrói futuro</strong> — ajudando a erguer lares, escolas, empresas e histórias que ficarão de pé por gerações.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">Um elo direto com o cliente</h2>
+          <p className="leading-relaxed mb-4">
+            Com atendimento humanizado e comunicação direta via <strong>WhatsApp (31) 98468-0246</strong>, cada cliente recebe suporte rápido, orçamentos personalizados e acompanhamento até a entrega final.
+            Essa proximidade é um dos pilares que mantém a marca forte e querida em toda a região.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">Um tijolo de cada vez, um futuro de pé</h2>
+          <p className="leading-relaxed mb-4">
+            Da <strong>fábrica ao canteiro</strong>, a jornada da Cerâmica Santo Antônio é marcada por trabalho, confiança e visão de longo prazo.
+            Cada caminhão que sai da fábrica leva mais do que tijolos: leva o <strong>peso da tradição e o compromisso com o amanhã</strong>.
+          </p>
+
+          <div className="bg-primary/10 border-l-4 border-primary p-6 rounded-lg mt-8">
+            <p className="text-lg font-semibold text-primary">
+              📞 Entre em contato pelo WhatsApp (31) 98468-0246 e garanta entrega rápida com frete grátis dentro de 30 km de Justinópolis!
+            </p>
+          </div>
+        </div>
+      )
+    },
+    "deposito-ceramica-santo-antonio-parceria": {
+      title: "Depósito Cerâmica Santo Antônio: Tradição e Parceria Que Fortalece a Construção em Minas",
+      date: "12 de Fevereiro, 2024",
+      image: fabricaImage,
+      content: (
+        <div className="prose prose-lg max-w-none">
+          <p className="text-xl text-muted-foreground leading-relaxed mb-6">
+            O <strong>Depósito Cerâmica Santo Antônio</strong> é um dos maiores nomes em <strong>materiais de construção de Justinópolis e Ribeirão das Neves</strong>.
+            Parte do mesmo grupo da <strong>Cerâmica Santo Antônio (CSA)</strong>, o depósito nasceu da necessidade de oferecer aos clientes <strong>acesso rápido e direto a produtos de qualidade</strong>, mantendo o mesmo compromisso de confiança e excelência que tornou a fábrica referência na região.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">Uma história de trabalho e crescimento</h2>
+          <p className="leading-relaxed mb-4">
+            O <strong>Depósito Cerâmica Santo Antônio</strong> surgiu como uma extensão natural da <strong>fábrica Cerâmica Santo Antônio</strong>, fundada em 1976 por <strong>Antônio Cândido Filho</strong>, o Sr. Antônio ou "Sinô", pioneiro na fabricação de tijolos em Justinópolis.
+            Com o passar dos anos, a produção artesanal evoluiu, e o grupo expandiu suas operações para atender também o varejo e pequenas construtoras.
+          </p>
+
+          <p className="leading-relaxed mb-4">
+            Hoje, o depósito atua com <strong>estrutura moderna e equipe especializada</strong>, mantendo o legado da família e garantindo que cada cliente tenha uma experiência completa — da compra à entrega.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">Produtos e diferenciais</h2>
+          <p className="leading-relaxed mb-4">
+            O depósito é conhecido por unir <strong>variedade, preço competitivo e entrega rápida</strong>, atendendo tanto <strong>profissionais da construção civil</strong> quanto <strong>clientes que estão construindo ou reformando</strong>.
+          </p>
+
+          <h3 className="text-xl font-semibold text-primary mb-3">Principais destaques:</h3>
+          <ul className="list-disc list-inside space-y-2 mb-6">
+            <li><strong>Tijolos de 8 furos (9x19x29cm)</strong> e <strong>12 furos (14x19x29cm)</strong>, nas versões <strong>1ª linha premium</strong>, <strong>requeimados</strong> e <strong>2ª linha</strong></li>
+            <li>Entregas rápidas com <strong>frota própria</strong></li>
+            <li>Condições especiais para compras em volume</li>
+            <li>Atendimento direto por telefone ou WhatsApp</li>
+          </ul>
+
+          <p className="leading-relaxed mb-4">
+            O <strong>pedido mínimo para entrega</strong> é de <strong>1 milheiro</strong>, garantindo melhor logística e custo-benefício ao cliente.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">🤝 Fábrica e depósito: parceria que gera resultados</h2>
+          <p className="leading-relaxed mb-4">
+            Embora o depósito e a fábrica operem de forma independente, ambos compartilham o mesmo objetivo:
+            <strong>fornecer materiais de qualidade, com preço justo e confiança.</strong>
+          </p>
+
+          <p className="leading-relaxed mb-4">
+            Enquanto a <strong>fábrica Cerâmica Santo Antônio</strong> foca na <strong>produção e venda direta ao consumidor final, construtoras e depósitos parceiros</strong>, o <strong>Depósito Santo Antônio</strong> segue como ponto de apoio comercial na região, oferecendo uma linha completa de produtos para obras e acabamentos.
+          </p>
+
+          <p className="leading-relaxed mb-4">
+            Essa união faz do grupo um dos maiores e mais respeitados nomes da <strong>construção civil em Minas Gerais</strong>, mantendo viva a tradição que começou há quase cinco décadas.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">📍 Onde encontrar</h2>
+          
+          <div className="bg-muted/50 p-6 rounded-lg mb-4">
+            <h3 className="text-xl font-bold mb-3">🏭 Fábrica Cerâmica Santo Antônio (CSA)</h3>
+            <p className="mb-2">📍 Rua Antônio Cândido Rocha, 05 – Labanca (Justinópolis)</p>
+            <p className="mb-2">📞 (31) <strong>98468-0246</strong></p>
+            <p className="text-sm text-muted-foreground">Venda direta ao consumidor, construtoras e depósitos</p>
+          </div>
+
+          <div className="bg-muted/50 p-6 rounded-lg mb-6">
+            <h3 className="text-xl font-bold mb-3">🏢 Depósito Cerâmica Santo Antônio</h3>
+            <p className="mb-2">📍 Av. Denise Cristina da Rocha, 1555 – Justinópolis, Ribeirão das Neves – MG, CEP 33900-000</p>
+            <p className="mb-2">📞 (31) <strong>3638-1522</strong></p>
+            <p className="text-sm text-muted-foreground">Materiais de construção e atendimento ao varejo</p>
+          </div>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">💬 Atendimento e Orçamentos</h2>
+          <p className="leading-relaxed mb-4">
+            Tanto a fábrica quanto o depósito oferecem atendimento ágil e transparente.
+          </p>
+
+          <div className="bg-accent/10 border-l-4 border-accent p-6 rounded-lg mt-8">
+            <p className="text-lg font-semibold mb-3">
+              👉 Solicite seu orçamento pelo WhatsApp:
+            </p>
+            <p className="text-lg">
+              <a href="https://wa.me/5531984680246?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20de%20tijolos." className="text-primary font-semibold hover:underline" target="_blank" rel="noopener noreferrer">
+                Falar com a Fábrica (31) 98468-0246
+              </a>
             </p>
           </div>
         </div>

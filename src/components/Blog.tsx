@@ -24,6 +24,20 @@ const Blog = () => {
       excerpt: "Entenda as diferenças entre os tijolos 8 e 12 furos e qual é o mais adequado para cada tipo de construção.",
       date: "29 de Janeiro, 2024",
       slug: "tipos-tijolos-8-12-furos"
+    },
+    {
+      id: 4,
+      title: "Da Fábrica ao Canteiro: Entregando Qualidade e Comprometimento",
+      excerpt: "Conheça nosso processo de produção, logística inteligente e compromisso com a sustentabilidade. Da fábrica ao canteiro, qualidade em cada entrega.",
+      date: "05 de Fevereiro, 2024",
+      slug: "fabrica-ao-canteiro-entrega-qualidade"
+    },
+    {
+      id: 5,
+      title: "Depósito Cerâmica Santo Antônio: Tradição e Parceria",
+      excerpt: "Parte do mesmo grupo da CSA, o Depósito Santo Antônio oferece materiais de qualidade com atendimento ágil em Justinópolis e Ribeirão das Neves.",
+      date: "12 de Fevereiro, 2024",
+      slug: "deposito-ceramica-santo-antonio-parceria"
     }
   ];
 
