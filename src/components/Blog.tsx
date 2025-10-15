@@ -6,15 +6,15 @@ const Blog = () => {
   const articles = [
     {
       id: 1,
-      title: "História da Cerâmica Santo Antônio — 1976 até hoje",
-      excerpt: "Descubra como a CSA se tornou referência em qualidade e tradição na fabricação de tijolos em Minas Gerais ao longo de quase 50 anos.",
+      title: "A História da Cerâmica Santo Antônio: Tradição, Qualidade e Raízes em Ribeirão das Neves",
+      excerpt: "De um sonho familiar em Justinópolis a uma referência regional. Conheça a trajetória de quase 50 anos de trabalho, união e compromisso com a qualidade.",
       date: "15 de Janeiro, 2024",
       slug: "historia-ceramica-santo-antonio"
     },
     {
       id: 2,
-      title: "A origem da CSA e trajetória do fundador",
-      excerpt: "Conheça a história inspiradora de como tudo começou e os valores que guiam nossa produção até hoje.",
+      title: "A História do Fundador da Cerâmica Santo Antônio: Trabalho, Família e Tijolo por Tijolo",
+      excerpt: "Conheça a inspiradora história do Sr. Antônio (Sinô): de agricultor a empreendedor visionário. Uma jornada de superação, família e valores que construíram um legado.",
       date: "22 de Janeiro, 2024",
       slug: "origem-csa-trajetoria-fundador"
     },

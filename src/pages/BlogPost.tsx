@@ -18,102 +18,148 @@ const BlogPost = () => {
     image: string;
   }> = {
     "historia-ceramica-santo-antonio": {
-      title: "História da Cerâmica Santo Antônio — 1976 até hoje",
+      title: "A História da Cerâmica Santo Antônio: Tradição, Qualidade e Raízes em Ribeirão das Neves",
       date: "15 de Janeiro, 2024",
       image: fabricaImage,
       content: (
         <div className="prose prose-lg max-w-none">
           <p className="text-xl text-muted-foreground leading-relaxed mb-6">
-            A Cerâmica Santo Antônio nasceu em 1976, em um momento crucial do desenvolvimento de Ribeirão das Neves e da região metropolitana de Belo Horizonte. O que começou como um empreendimento familiar se transformou, ao longo de quase cinco décadas, em uma das cerâmicas mais respeitadas de Minas Gerais.
+            A <strong>Cerâmica Santo Antônio</strong> nasceu de um sonho simples e poderoso: transformar o solo de <strong>Justinópolis</strong>, em <strong>Ribeirão das Neves (MG)</strong>, em um símbolo de construção, resistência e esperança.
+            Desde o início, cada tijolo fabricado carrega uma história de <strong>trabalho, união familiar e dedicação</strong> — valores que até hoje definem a marca.
           </p>
 
-          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Os Primeiros Anos (1976-1985)</h3>
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">🌾 De um sonho familiar a uma referência regional</h2>
           <p className="leading-relaxed mb-4">
-            No final da década de 1970, a região de Justinópolis começava a experimentar um crescimento acelerado. Foi nesse contexto que a família fundadora da CSA identificou uma oportunidade: fornecer tijolos de qualidade para atender a crescente demanda por materiais de construção.
-          </p>
-          <p className="leading-relaxed mb-4">
-            Com um pequeno forno e um time enxuto de colaboradores, a Cerâmica Santo Antônio iniciou suas atividades focada em dois pilares que permanecem até hoje: <strong>qualidade do produto</strong> e <strong>preço justo</strong>. Desde o início, a empresa optou por um modelo de negócio direto — sem intermediários — permitindo oferecer preços competitivos sem comprometer a excelência.
+            O que começou de forma artesanal, no terreno onde morava o fundador <strong>Antônio Cândido Filho (o querido Seu Antônio)</strong>, tornou-se uma <strong>fábrica sólida e respeitada</strong>, atendendo <strong>Belo Horizonte, Contagem, Venda Nova, Santa Luzia, Vespasiano e toda a região metropolitana</strong>.
           </p>
 
-          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Expansão e Consolidação (1985-2000)</h3>
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">🔥 O início: tijolo por tijolo, um legado construído com esforço</h2>
           <p className="leading-relaxed mb-4">
-            Durante os anos 1980 e 1990, a CSA investiu em modernização de equipamentos e ampliação da capacidade produtiva. Novos fornos foram construídos, permitindo que a cerâmica produzisse volumes maiores sem perder o controle rigoroso de qualidade que se tornou sua marca registrada.
+            Nos primeiros anos, o cenário era desafiador.
+            Não havia galpões estruturados, e os tijolos eram <strong>cobertos com lonas para proteger da chuva</strong>. Cada temporal trazia prejuízos, mas também fortalecia a vontade de seguir em frente.
           </p>
           <p className="leading-relaxed mb-4">
-            Nesse período, a empresa também consolidou sua presença regional, passando a atender não apenas Ribeirão das Neves e Justinópolis, mas também Belo Horizonte, Venda Nova e Contagem. A reputação de seus tijolos — especialmente os modelos de 8 e 12 furos — espalhou-se entre construtoras, depósitos de material de construção e clientes finais.
-          </p>
-
-          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Século XXI: Tradição e Inovação</h3>
-          <p className="leading-relaxed mb-4">
-            Nos anos 2000, a Cerâmica Santo Antônio enfrentou o desafio de manter sua relevância em um mercado cada vez mais competitivo e globalizado. A resposta foi clara: preservar os valores tradicionais enquanto adota práticas modernas de gestão e produção.
+            Com o apoio dos filhos, amigos e vizinhos, Seu Antônio <strong>transformou dificuldades em aprendizado</strong> e fez da cerâmica um exemplo de <strong>persistência e resiliência mineira</strong>.
           </p>
           <p className="leading-relaxed mb-4">
-            A empresa investiu em processos sustentáveis, melhorou a logística de entregas com frota própria e manteve o compromisso com a negociação direta. Essa combinação de tradição e modernidade permitiu que a CSA chegasse ao século XXI como referência regional.
+            Aos poucos, vieram as melhorias: o primeiro barracão, os fornos a lenha, a modernização do maquinário e o aumento da produção — sempre mantendo o cuidado artesanal que fez a <strong>Cerâmica Santo Antônio</strong> ser reconhecida como uma das <strong>melhores fábricas de tijolos da região de Justinópolis</strong>.
           </p>
 
-          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Presente e Futuro</h3>
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">🏗️ Crescimento com propósito</h2>
           <p className="leading-relaxed mb-4">
-            Hoje, a Cerâmica Santo Antônio orgulha-se de sua trajetória de quase 50 anos. A empresa mantém a mesma filosofia que a guiou desde o início: <strong>produzir tijolos de alta qualidade com preço justo</strong>, servindo obras de todos os portes — de pequenas reformas residenciais a grandes empreendimentos comerciais.
+            Com o passar das décadas, a empresa foi ganhando estrutura, ampliando a equipe e consolidando parcerias com <strong>depósitos de construção e construtoras</strong> de toda a Grande BH.
+            A produção cresceu, mas o propósito nunca mudou: <strong>entregar qualidade com preço justo</strong>.
           </p>
           <p className="leading-relaxed mb-4">
-            Com produção própria, matéria-prima selecionada e uma equipe experiente, a CSA continua sendo a escolha preferida de quem busca <strong>comprar tijolos em BH e região metropolitana</strong> com a garantia de um nome consolidado pela história.
+            Hoje, a <strong>Cerâmica Santo Antônio</strong> é referência quando o assunto é <strong>tijolos 8 e 12 furos</strong>, fabricados com rigor técnico, matéria-prima selecionada e um compromisso inegociável com o cliente.
+          </p>
+          <p className="leading-relaxed mb-4">
+            A empresa se orgulha de ter mantido o mesmo espírito familiar do início, onde <strong>cada funcionário é parte da história e cada cliente, uma extensão dessa trajetória</strong>.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">🚚 Da fábrica ao canteiro: agilidade e confiança</h2>
+          <p className="leading-relaxed mb-4">
+            Além da qualidade dos produtos, a cerâmica se destaca pelo <strong>atendimento rápido e frete eficiente</strong>.
+            Com frota própria e logística organizada, garante <strong>entregas pontuais</strong> em toda a região metropolitana de Belo Horizonte — especialmente em <strong>Ribeirão das Neves, Justinópolis, Contagem, Venda Nova, Santa Luzia e Vespasiano</strong>.
+          </p>
+          <p className="leading-relaxed mb-4">
+            Essa agilidade é um dos diferenciais que mais fideliza os clientes.
+            Quem compra uma vez, volta — e indica.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">🧩 Tradição que atravessa gerações</h2>
+          <p className="leading-relaxed mb-4">
+            Mais do que uma fábrica, a <strong>Cerâmica Santo Antônio</strong> representa um <strong>legado de família</strong>.
+            Hoje, os descendentes do fundador continuam a missão com o mesmo cuidado e paixão, mantendo viva a essência de quem acreditou que <strong>um tijolo pode ir muito além da construção: pode erguer histórias, famílias e futuros</strong>.
+          </p>
+
+          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">🌟 Compromisso com o futuro</h2>
+          <p className="leading-relaxed mb-4">
+            Com uma gestão moderna, atenção à sustentabilidade e foco na satisfação do cliente, a Cerâmica Santo Antônio segue crescendo, <strong>mantendo-se como símbolo de tradição e qualidade em Minas Gerais</strong>.
+          </p>
+          <p className="leading-relaxed mb-4">
+            Porque mais do que produzir tijolos, a CSA <strong>constrói confiança</strong> — tijolo por tijolo, obra por obra, geração após geração.
           </p>
 
           <div className="bg-primary/10 border-l-4 border-primary p-6 rounded-lg mt-8">
             <p className="text-lg font-semibold text-primary">
-              💪 De 1976 até hoje: construindo o futuro com a solidez de quase cinco décadas de tradição e compromisso com a excelência.
+              🌟 Tradição, qualidade e confiança que atravessam gerações — atendendo BH, Justinópolis e toda a região metropolitana com excelência.
             </p>
           </div>
         </div>
       )
     },
     "origem-csa-trajetoria-fundador": {
-      title: "A origem da CSA e trajetória do fundador",
+      title: "A História do Fundador da Cerâmica Santo Antônio: Trabalho, Família e Tijolo por Tijolo",
       date: "22 de Janeiro, 2024",
       image: fabricaImage,
       content: (
         <div className="prose prose-lg max-w-none">
           <p className="text-xl text-muted-foreground leading-relaxed mb-6">
-            Por trás da Cerâmica Santo Antônio está uma história de visão, trabalho árduo e dedicação à comunidade. Entenda como tudo começou e os valores que guiam nossa produção até hoje.
+            A história da <strong>Cerâmica Santo Antônio</strong> começa muito antes dos primeiros tijolos serem moldados.
+            Ela nasce com <strong>Antônio Cândido Filho</strong>, conhecido com carinho em toda <strong>Justinópolis</strong> como <strong>"Seu Antônio" ou "Sinô"</strong> — um homem simples, trabalhador e com uma visão rara: construir algo que durasse mais que o tempo.
           </p>
 
-          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">O Começo de Tudo</h3>
+          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">De agricultor dedicado a empreendedor visionário</h3>
           <p className="leading-relaxed mb-4">
-            A história da CSA está intimamente ligada à região de Justinópolis, em Ribeirão das Neves. Na década de 1970, a área começava a se desenvolver, atraindo famílias em busca de moradias mais acessíveis próximas a Belo Horizonte. Foi nesse cenário que nosso fundador identificou uma oportunidade de servir à comunidade local.
-          </p>
-          <p className="leading-relaxed mb-4">
-            Vindo de uma família com tradição em trabalhos manuais e construção civil, ele reconheceu que a região precisava de um fornecedor confiável de tijolos de qualidade. Mas, mais do que isso, viu a chance de criar algo duradouro — uma empresa que pudesse crescer junto com a comunidade.
+            Antes de ser ceramista, Seu Antônio era <strong>agricultor</strong>. Ele cultivava verduras frescas que vendia pessoalmente no tradicional <strong>Mercado da Avenida Olegário Maciel</strong>, em Belo Horizonte.
+            Foi ali, entre bancas e conversas com fregueses, que ele aprendeu o verdadeiro valor da dedicação e da confiança — princípios que levaria para toda a sua vida.
           </p>
 
-          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Os Valores Fundamentais</h3>
+          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">O primeiro caminhão e o espírito de colaboração</h3>
           <p className="leading-relaxed mb-4">
-            Desde o primeiro dia, três princípios nortearam a criação da Cerâmica Santo Antônio:
-          </p>
-          <ul className="list-disc list-inside space-y-2 mb-4">
-            <li><strong>Qualidade sem concessões:</strong> Cada tijolo produzido deveria atender aos mais altos padrões, independentemente da classificação (1ª linha, requeimado ou 2ª linha).</li>
-            <li><strong>Preço justo:</strong> Eliminar intermediários para oferecer o melhor custo-benefício diretamente ao cliente.</li>
-            <li><strong>Compromisso com a comunidade:</strong> Ser mais do que um fornecedor — ser um parceiro confiável para construtoras, depósitos e famílias locais.</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Crescimento e Desafios</h3>
-          <p className="leading-relaxed mb-4">
-            Os primeiros anos não foram fáceis. Estabelecer uma cerâmica exige investimentos significativos em equipamentos, matéria-prima e mão de obra qualificada. Mas a determinação do fundador e o apoio da família permitiram superar os obstáculos iniciais.
+            Para facilitar o transporte das verduras, <strong>Seu Antônio comprou seu primeiro caminhão</strong>.
+            Mas ele não o usava apenas para o próprio negócio — também ajudava outros agricultores da região, transportando suas colheitas.
+            Era assim: <strong>trabalho duro, amizade e solidariedade</strong> caminhando lado a lado.
           </p>
           <p className="leading-relaxed mb-4">
-            Aos poucos, a reputação da CSA se espalhou. Clientes satisfeitos recomendavam os tijolos para amigos, vizinhos e profissionais da construção. O boca a boca positivo foi essencial para o crescimento da empresa, que logo passou a atender não apenas Ribeirão das Neves, mas também Belo Horizonte, Venda Nova e Contagem.
+            Com o tempo, ele expandiu sua plantação, tornando-se também <strong>grande produtor de tomates e morangos</strong>.
+            Quando decidiu encerrar o ciclo como agricultor, arrendou o terreno para familiares continuarem o trabalho — uma prova do seu compromisso em <strong>preservar as raízes e fortalecer a família</strong>.
           </p>
 
-          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Legado e Continuidade</h3>
+          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Uma nova fase: o transporte coletivo</h3>
           <p className="leading-relaxed mb-4">
-            Quase 50 anos depois, a Cerâmica Santo Antônio continua fiel à visão de seu fundador. A empresa permanece comprometida com os mesmos valores de qualidade, preço justo e atendimento diferenciado que a tornaram referência regional.
+            Empreendedor nato, Seu Antônio <strong>adquiriu uma pequena empresa de ônibus</strong>.
+            Mesmo atuando por pouco tempo no ramo, essa experiência mostrou-lhe a importância da <strong>organização e da logística</strong>, habilidades que se tornariam fundamentais na próxima grande jornada da sua vida: <strong>a fabricação de tijolos</strong>.
+          </p>
+
+          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">O nascimento da Cerâmica Santo Antônio</h3>
+          <p className="leading-relaxed mb-4">
+            Foi em seu próprio terreno, onde residia com a família, que <strong>nasceu a Cerâmica Santo Antônio</strong>.
+            No início, as dificuldades eram muitas — <strong>não havia galpão</strong>, e os <strong>tijolos recém-fabricados eram cobertos com lonas</strong> improvisadas para proteger da chuva.
           </p>
           <p className="leading-relaxed mb-4">
-            Hoje, a segunda geração da família está envolvida nas operações, trazendo novas ideias enquanto preserva o legado de excelência. A missão permanece clara: fornecer os melhores tijolos de Minas Gerais, contribuindo para que cada cliente construa seus sonhos com solidez e confiança.
+            Quando o tempo virava, era <strong>correria geral</strong>:
+          </p>
+          
+          <blockquote className="border-l-4 border-primary bg-primary/5 p-4 my-6 italic">
+            <p className="leading-relaxed">
+              "Ao primeiro sinal de chuva, todos saíam de casa correndo para cobrir as pilhas de tijolos."
+            </p>
+          </blockquote>
+
+          <p className="leading-relaxed mb-4">
+            Essa lembrança, contada com emoção pelos filhos até hoje, resume bem o espírito que construiu a cerâmica: <strong>união familiar, esforço coletivo e amor pelo que se faz</strong>.
+          </p>
+          <p className="leading-relaxed mb-4">
+            Mesmo enfrentando perdas e prejuízos em dias de temporal, <strong>Seu Antônio não desistiu</strong>.
+            Ele sabia que cada tijolo representava mais do que barro e fogo — era o símbolo de <strong>trabalho, persistência e fé no futuro</strong>.
+          </p>
+
+          <h3 className="text-2xl font-bold text-primary mt-8 mb-4">🧩 Tijolo por tijolo, a base de uma tradição</h3>
+          <p className="leading-relaxed mb-4">
+            O que começou como uma pequena produção artesanal se transformou, ao longo dos anos, em uma <strong>referência em qualidade e confiança</strong> em <strong>Ribeirão das Neves e toda a região metropolitana de Belo Horizonte</strong>.
+          </p>
+          <p className="leading-relaxed mb-4">
+            A <strong>Cerâmica Santo Antônio</strong> não é apenas uma fábrica — é um <strong>legado familiar</strong> construído sobre valores sólidos: <strong>honestidade, resiliência e amor pelo trabalho</strong>.
+          </p>
+          <p className="leading-relaxed mb-4">
+            E é por isso que, mesmo décadas depois, o nome <strong>Santo Antônio</strong> segue sendo sinônimo de <strong>tradição, qualidade e preço justo</strong> — porque nasceu das mãos de alguém que acreditava que <strong>as maiores obras da vida são construídas em família</strong>.
           </p>
 
           <div className="bg-primary/10 border-l-4 border-primary p-6 rounded-lg mt-8">
             <p className="text-lg font-semibold text-primary">
-              🏆 Uma história de trabalho, dedicação e compromisso — construindo não apenas tijolos, mas relações de confiança que atravessam gerações.
+              👊 De agricultor a empreendedor: uma jornada de superação que construiu não apenas uma cerâmica, mas um legado de trabalho, união e tradição.
             </p>
           </div>
         </div>
