@@ -35,7 +35,7 @@ const CTA = () => {
             </a>
           </Button>
           <p className="mt-6 text-white/80">
-            📞 (31) 98468-0246 — Atendimento de segunda a sexta, 7h às 17h
+            📞 (31) 3639-1045 | WhatsApp: (31) 98468-0246 — Atendimento de segunda a sexta, 7h às 17h
           </p>
         </div>
       </div>

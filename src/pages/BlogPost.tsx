@@ -387,17 +387,6 @@ const BlogPost = () => {
             O depósito é conhecido por unir <strong>variedade, preço competitivo e entrega rápida</strong>, atendendo tanto <strong>profissionais da construção civil</strong> quanto <strong>clientes que estão construindo ou reformando</strong>.
           </p>
 
-          <h3 className="text-xl font-semibold text-primary mb-3">Principais destaques:</h3>
-          <ul className="list-disc list-inside space-y-2 mb-6">
-            <li><strong>Tijolos de 8 furos (9x19x29cm)</strong> e <strong>12 furos (14x19x29cm)</strong>, nas versões <strong>1ª linha premium</strong>, <strong>requeimados</strong> e <strong>2ª linha</strong></li>
-            <li>Entregas rápidas com <strong>frota própria</strong></li>
-            <li>Condições especiais para compras em volume</li>
-            <li>Atendimento direto por telefone ou WhatsApp</li>
-          </ul>
-
-          <p className="leading-relaxed mb-4">
-            O <strong>pedido mínimo para entrega</strong> é de <strong>1 milheiro</strong>, garantindo melhor logística e custo-benefício ao cliente.
-          </p>
 
           <h2 className="text-2xl font-bold text-primary mt-8 mb-4">🤝 Fábrica e depósito: parceria que gera resultados</h2>
           <p className="leading-relaxed mb-4">
@@ -418,7 +407,7 @@ const BlogPost = () => {
           <div className="bg-muted/50 p-6 rounded-lg mb-4">
             <h3 className="text-xl font-bold mb-3">🏭 Fábrica Cerâmica Santo Antônio (CSA)</h3>
             <p className="mb-2">📍 Rua Antônio Cândido Rocha, 05 – Labanca (Justinópolis)</p>
-            <p className="mb-2">📞 (31) <strong>98468-0246</strong></p>
+            <p className="mb-2">📞 (31) 3639-1045 | WhatsApp: (31) <strong>98468-0246</strong></p>
             <p className="text-sm text-muted-foreground">Venda direta ao consumidor, construtoras e depósitos</p>
           </div>
 

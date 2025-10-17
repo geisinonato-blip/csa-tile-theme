@@ -34,9 +34,9 @@ const Header = () => {
           <div className="hidden lg:flex items-center gap-6">
             {/* Contact Numbers */}
             <div className="flex items-center gap-4 border-r border-border pr-6">
-              <a href="tel:+553136381045" className="flex items-center gap-2 text-sm text-foreground hover:text-primary transition-smooth">
+              <a href="tel:+553136391045" className="flex items-center gap-2 text-sm text-foreground hover:text-primary transition-smooth">
                 <Phone className="h-4 w-4" />
-                <span className="font-semibold">(31) 3693-1045</span>
+                <span className="font-semibold">(31) 3639-1045</span>
               </a>
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-green-600 hover:text-green-700 transition-smooth">
                 <MessageCircle className="h-4 w-4" />
@@ -87,9 +87,9 @@ const Header = () => {
             <div className="flex flex-col gap-4">
               {/* Contact Numbers */}
               <div className="flex flex-col gap-3 pb-4 border-b border-border">
-                <a href="tel:+553136381045" className="flex items-center gap-2 text-foreground hover:text-primary transition-smooth">
+                <a href="tel:+553136391045" className="flex items-center gap-2 text-foreground hover:text-primary transition-smooth">
                   <Phone className="h-4 w-4" />
-                  <span className="font-semibold">(31) 3693-1045</span>
+                  <span className="font-semibold">(31) 3639-1045</span>
                 </a>
                 <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-green-600 hover:text-green-700 transition-smooth">
                   <MessageCircle className="h-4 w-4" />

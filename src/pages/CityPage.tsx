@@ -62,7 +62,7 @@ const CityPage = ({ cityName, slug, metaDescription, introText, localKeywords }:
               "latitude": -19.7547,
               "longitude": -44.0464
             },
-            "telephone": "+553136381045",
+            "telephone": "+553136391045",
             "priceRange": "$$",
             "areaServed": cityName,
             "openingHours": "Mo-Fr 07:00-17:00"
