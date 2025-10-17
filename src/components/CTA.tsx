@@ -31,7 +31,7 @@ const CTA = () => {
           >
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="mr-2 h-6 w-6" />
-              Falar com Vendas no WhatsApp
+              Comprar Tijolos
             </a>
           </Button>
           <p className="mt-6 text-white/80">

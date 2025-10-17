@@ -32,7 +32,7 @@ const Hero = () => {
           >
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="mr-2 h-5 w-5" />
-              Falar com Vendas no WhatsApp
+              Comprar Tijolos
             </a>
           </Button>
         </div>

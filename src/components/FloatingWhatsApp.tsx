@@ -27,7 +27,7 @@ const FloatingWhatsApp = () => {
       className={`fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-strong transition-all duration-300 group ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16 pointer-events-none"
       }`}
-      aria-label="Falar com vendas no WhatsApp"
+      aria-label="Comprar Tijolos"
     >
       <MessageCircle className="h-8 w-8 animate-pulse group-hover:animate-none" />
       <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-secondary text-white px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-medium">
